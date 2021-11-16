@@ -6,7 +6,7 @@
 
 for(let i = 1; i <= 100; i++) {
 
-    let FizzOrBuzzOrBoth = i.toString();
+    let FizzOrBuzzOrBoth = i;
 
     if (i % 3 === 0 && i % 5 === 0) {
         FizzOrBuzzOrBoth = "FizzBuzz";
